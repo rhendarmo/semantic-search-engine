@@ -1,0 +1,53 @@
+# --- General Operating System and Editor Files ---
+.DS_Store
+.vscode/
+
+# --- Node.js & Next.js Specific ---
+# Dependencies
+node_modules
+/next-env.d.ts
+.npm
+.eslintcache
+
+# Production build artifacts
+/build
+.next
+out
+
+# Optional Next.js output
+.open-next
+
+# Environments
+.env*.local
+.vercel
+/vercel-analytics
+
+# Testing
+/coverage
+
+# --- Python & FastAPI Specific ---
+# Dependencies
+__pycache__
+*.pyc
+.venv
+venv
+env
+
+# Environment files
+.env
+
+# Build artifacts
+dist
+build
+*.egg-info/
+
+# Testing/Documentation
+.pytest_cache
+.mypy_cache
+docs/_build/
+
+# Jupyter Notebook files
+.ipynb_checkpoints
+
+# IDE specific files (e.g., PyCharm)
+.idea/
