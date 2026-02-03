@@ -35,21 +35,6 @@ export default function ResultCard({ result }: { result: SearchResult }) {
       <p className="mt-3 text-sm leading-relaxed text-zinc-700">
         {result.overview}
       </p>
-
-      <div className="mt-4 flex flex-wrap gap-2">
-        <button
-          type="button"
-          className="rounded-xl border border-zinc-200 bg-white px-3 py-2 text-xs font-medium text-zinc-800 hover:bg-zinc-50"
-        >
-          View details
-        </button>
-        <button
-          type="button"
-          className="rounded-xl border border-zinc-200 bg-white px-3 py-2 text-xs font-medium text-zinc-800 hover:bg-zinc-50"
-        >
-          Use as evidence
-        </button>
-      </div>
     </div>
   );
 }
