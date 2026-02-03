@@ -18,7 +18,7 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=[
         "http://localhost:3000",
-        "https://semantic-search-engine-six.vercel.app/"
+        "https://semantic-search-engine-six.vercel.app"
     ],
     allow_credentials=True,
     allow_methods=["*"],
