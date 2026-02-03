@@ -24,7 +24,7 @@ This document outlines the individual contributions of each team member to the S
 - Integrated TMDb API data access and backend configuration.
 
 **Key Contributions**
-- API design (`/search`, `/llm/qa`)
+- API design (`/search`, `/embed`)
 - Backend reliability and maintainability
 - Local development and debugging support
 
